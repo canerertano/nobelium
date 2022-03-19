@@ -1,5 +1,4 @@
 import BLOG from '@/blog.config'
-
 const Footer = ({ fullWidth }) => {
   const d = new Date()
   const y = d.getFullYear()
@@ -16,7 +15,6 @@ const Footer = ({ fullWidth }) => {
           <p>
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
           </p>
-          
         </div>
       </div>
     </div>
